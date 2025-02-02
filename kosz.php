@@ -18,7 +18,7 @@
             $urz = "root";
             $ho = "localhost";
             $haslo = "";
-            $baza = "test";
+            $baza = "wyniki2";
             $pol=mysqli_connect($ho, $urz, $haslo, $baza);
             $kwe= "SELECT * FROM kosz";
             $res = mysqli_query($pol, $kwe);
